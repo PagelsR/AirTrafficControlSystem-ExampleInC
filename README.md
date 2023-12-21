@@ -14,7 +14,7 @@ This is a walkthrough using Copilot for efficient C to Python code conversion, u
 
 This demo shows how Copilot can be used to convert C code to Python, generate unit tests, document unit tests, and generate a commit message.
 
-Demo 1
+Demo 1 - Explain application
 ----------------------------
 Open file **AirTraffic.c**
 
@@ -25,7 +25,7 @@ Copilot Chat Window
 Speaker
     This C program is a simulation of an air traffic control system. It uses several libraries, including stdio.h for standard input/output operations, stdlib.h for general purpose functions, pthread.h for multithreading, unistd.h for POSIX operating system API, and semaphore.h for semaphore operations. The program uses three arrays to represent the state of the airport: gate_array for the gates, runway_array for the runways, and taxiway_array for the taxiways. Next, let's ask Copilot to convert this to Python.
 
-Demo 2
+Demo 2 - Convert C to Python
 ----------------------------
 Speaker
 
@@ -45,7 +45,7 @@ Speaker
 
     You can create a new file in Visual Studio Code by clicking on the "New File" icon in the Explorer view or by using the shortcut Ctrl+N. Then, you can paste the above code into the new file. Next, save the file by using the shortcut Ctrl+S.
 
-Demo 3
+Demo 3 - Generate Unit Tests
 ----------------------------
 Speaker
 
@@ -81,7 +81,7 @@ Speaker
 
 - Simply click **Create** to save to **test_AirTraffic.py**
 
-Demo 3
+Demo 3 - Documenting Unit Tests
 ----------------------------
 Speaker
 
@@ -105,7 +105,7 @@ Speaker
 - Click button **Generate commit message using Copilot**
 - Click button **Commit and Push**
 
-Demo 5
+Demo 5 - Performance and Security enhancements
 ----------------------------
 Speaker
 
