@@ -91,8 +91,16 @@ Lastly, let's use Copilot to generate a good commit message before checking in m
 Click button **Generate commit message using Copilot**
 Click button **Commit and Push**
 
+Demo 5
+----------------------------
+Speaker
+Let's look for ways to improve our code.  Even though my code is well-structured and follows good practices, there's always room for improvement. Copilot can help us with this as well.  Let's ask Copilot to review our code and provide suggestions around performance, security, and style.
 
+Copilot
+Type **Please review my code and provide suggestions**
 
+Speaker
+Copilot will review the code and provide suggestions in the chat window.  I can review this, copy it, create a new file, then simply paste in the code.
 
 
 
