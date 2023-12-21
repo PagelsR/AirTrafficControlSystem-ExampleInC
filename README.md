@@ -87,7 +87,7 @@ Scroll down to show comments above each class.
 Demo 4
 ----------------------------
 Speaker
-Lastly, let's use Copilot to generate a good commit message before checking in my code.
+Next, let's use Copilot to generate a good commit message before checking in my code.
 Click button **Generate commit message using Copilot**
 Click button **Commit and Push**
 
@@ -101,6 +101,10 @@ Type **Please review my code and provide suggestions**
 
 Speaker
 Copilot will review the code and provide suggestions in the chat window.  I can review this, copy it, create a new file, then simply paste in the code.
+
+Next, let's use Copilot to generate a good commit message before checking in my code.
+Click button **Refactor Runway class to use class variables and type hinting**
+Click button **Commit and Push**
 
 
 
