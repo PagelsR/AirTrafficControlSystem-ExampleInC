@@ -2,59 +2,55 @@ import unittest
 from AirTraffic import Runway
 
 class TestRunway(unittest.TestCase):
+    """
+    This class contains unit tests for the Runway class in the AirTraffic module.
+    """
+
     def setUp(self):
         """
-        Set up the test environment before each test case.
+        Set up the test fixture. This method is called before each test method.
         """
         self.runway = Runway()
 
-    # Test case 1
-    # This test case checks if the runway is available for landing.
-    def test_runway_available_for_landing(self):
-        # Test code goes here
-        pass
-
-    # Test case 2
-    # This test case checks if the runway is available for takeoff.
-    def test_runway_available_for_takeoff(self):
-        # Test code goes here
-        pass
-
-    # Test case 3
-    # This test case checks if the runway is closed for maintenance.
-    def test_runway_closed_for_maintenance(self):
-        # Test code goes here
-        pass
-
-    # Test case 4
-    # This test case checks if the runway is occupied by an aircraft.
-    def test_runway_occupied_by_aircraft(self):
-        # Test code goes here
-        pass
-
-    # Test case 5
-    # This test case checks the landing_function method of the Runway class.
     def test_landing_function(self):
-        # Test code goes here
-        pass
+        """
+        Test the landing_function method of the Runway class.
+        """
+        airplane_id = 123
+        self.runway.landing_function(airplane_id)
+        self.assertEqual(self.runway.runway_queue.queue[0], airplane_id)
 
-    # Test case 6
-    # This test case checks the proceed_to_taxiways method of the Runway class.
     def test_proceed_to_taxiways(self):
-        # Test code goes here
-        pass
+        """
+        Test the proceed_to_taxiways method of the Runway class.
+        """
+        airplane_id = 123
+        self.runway.landing_function(airplane_id)
+        self.runway.proceed_to_taxiways(airplane_id)
+        self.assertNotIn(airplane_id, self.runway.runway_queue.queue)
+        self.assertIn(airplane_id, self.runway.taxiway_queue[0].queue)
 
-    # Test case 7
-    # This test case checks the proceed_to_gate method of the Runway class.
     def test_proceed_to_gate(self):
-        # Test code goes here
-        pass
+        """
+        Test the proceed_to_gate method of the Runway class.
+        """
+        airplane_id = 123
+        self.runway.landing_function(airplane_id)
+        self.runway.proceed_to_taxiways(airplane_id)
+        self.runway.proceed_to_gate(airplane_id)
+        self.assertNotIn(airplane_id, self.runway.taxiway_queue[0].queue)
+        self.assertIn(airplane_id, self.runway.gate_queue.queue)
 
-    # Test case 8
-    # This test case checks the proceed_to_hangar method of the Runway class.
     def test_proceed_to_hangar(self):
-        # Test code goes here
-        pass
+        """
+        Test the proceed_to_hangar method of the Runway class.
+        """
+        airplane_id = 123
+        self.runway.landing_function(airplane_id)
+        self.runway.proceed_to_taxiways(airplane_id)
+        self.runway.proceed_to_gate(airplane_id)
+        self.runway.proceed_to_hangar(airplane_id)
+        self.assertNotIn(airplane_id, self.runway.gate_queue.queue)
 
 if __name__ == '__main__':
     unittest.main()
