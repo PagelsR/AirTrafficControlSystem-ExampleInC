@@ -1,9 +1,3 @@
-/*
-*
-* A air traffic control simulation developed by Asad Zia.
-*
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
