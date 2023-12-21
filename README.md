@@ -1,5 +1,5 @@
-# AirTrafficControlSystem-ExampleInC
-
+# Air Traffic Control System-Example in C
+An air traffic control simulation in C
 
 
 
