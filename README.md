@@ -1,10 +1,14 @@
 # Air Traffic Control Simulation
-An air traffic control simulation in legacy C
+An example air traffic control simulation written using legacy C. This code is setting up the basic structure for an air traffic control system.
+- Includes and Constants: Imports libraries and defines constants for runways, gates, airplanes, and mutex conditions.
+- Arrays: Declares arrays to represent the state of runways, gates, and taxiways.
+- Airplanes Structure: Defines a structure for an airplane with an ID and a thread ID.
+- Semaphores: Declares semaphores for runways, gates, and gate queues to manage concurrency.
+- Runway Initialization Function: Defines a function to initialize runways, setting all to empty at the start.
 
 ## Introduction
-Using Copilot to convert C to Python, write unit tests, document unit tests, and generate a commit message.
 
-This C program is a simulation of an air traffic control system. It uses several libraries, including stdio.h for standard input/output operations, stdlib.h for general purpose functions, pthread.h for multithreading, unistd.h for POSIX operating system API, and semaphore.h for semaphore operations.
+This is a walkthrough using Copilot for efficient C to Python code conversion, unit test creation, documentation, commit message generation, and performt efficiency and performance optimizations.
 
 ### Copilot Demo Walkthrough
 
