@@ -89,8 +89,11 @@ Speaker
 
     There are two options to do this, one is to use the shortcut command /docs to add header comments to classes and objects or ask Copilot to document everything. Click anywhere in the file and then use Copilots shortcut Ctrl+I.
 
+- open file **test_AirTraffic.py**
+- Put cursor at top of file, then use Copilots shortcut Ctrl+I.
+
 Copilot Inline Chat Window
-- Type **/docs**, press **Tab**, press **Enter**
+- Type **document everything**, press **Tab**, press **Enter**
 
 Speaker
 
@@ -113,12 +116,14 @@ Speaker
     
     Let's ask Copilot to review our code and provide suggestions around performance, security, and style.
 
+- Open file **AirTraffic.py**
+
 Copilot Chat Window
 - Type **Please review my code and provide suggestions**
 
 Speaker
 
-    Copilot will review the code and provide suggestions in the chat window.  I can review this, copy it, create a new file, then simply paste in the code.
+    Copilot will review the code and provide suggestions in the chat window.  If there are changes to code, I can review the output, copy it to clipboard, create a new file or simply paste in the code in place of original code.
 
     Next, let's use Copilot to generate a good commit message before checking in my code.
 
