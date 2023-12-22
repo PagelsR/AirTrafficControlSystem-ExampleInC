@@ -43,9 +43,7 @@ Copilot Chat Window
 
 Speaker
 
-    This Python code does the same thing as the C code. It creates a number of airplane objects and assigns them to runways, taxiways, and gates using queues. The airplane_control function controls the flow of each airplane from landing to proceeding to the hangar.
-
-    You can create a new file in Visual Studio Code by clicking on the "New File" icon in the Explorer view or by using the shortcut Ctrl+N. Then, you can paste the above code into the new file. Next, save the file by using the shortcut Ctrl+S.
+    This Python code does the same thing as the C code. It creates a number of airplane objects and assigns them to runways, taxiways, and gates using queues. The airplane_control function controls the flow of each airplane from landing to proceeding to the hangar. You can create a new file in Visual Studio Code by using the shortcut Ctrl+N, paste the code into new file, and save by using the shortcut Ctrl+S.
 
 - Copy to clipboard, Cntl-C. Cntl-N, to create a new file. Cntrl-V, to paste in code. Cntl-S, to save to **AirTraffic.py**
 
@@ -82,7 +80,7 @@ Copilot Inline Chat Window
 
 Speaker
 
-    The test suite evaluates key aspects of an airplane management system: initializing airplane IDs, checking the functionality of the airplane_control function, and ensuring proper assignment and initial conditions of gates, runways, and taxiways. Each test focuses on specific functionalities to guarantee the system's overall effectiveness.
+    The test suite evaluates key aspects of an airplane management system: initializing airplane IDs, checking the functionality of the airplane control function, and ensuring proper assignment and initial conditions of gates, runways, and taxiways. Each test focuses on specific functionalities to guarantee the system's overall effectiveness.
 
 - Simply click **Create** to save to **test_AirTraffic.py**
 
