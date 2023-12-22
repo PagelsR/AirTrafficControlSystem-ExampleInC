@@ -128,7 +128,9 @@ Speaker
 
     Copilot will review the code and provide suggestions in the chat window.  If there are changes to code, I can review the output, copy it to clipboard, create a new file or simply paste in the code in place of original code.
 
-    If you replace the code, don't forget to generate a good commit message before checking in my code.
+    If you replace the code, don't forget to generate a good commit message before checking in code.
+
+    Thank you for your time today, I hope you enjoyed this demo.  Please reach out to me if you have any questions.
 
 - Click button **Generate commit message using Copilot**
 - Click button **Commit and Push**
