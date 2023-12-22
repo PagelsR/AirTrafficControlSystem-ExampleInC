@@ -16,6 +16,10 @@ This demo shows how Copilot can be used to convert C code to Python, generate un
 
 Demo 1 - Explain application
 ----------------------------
+Speaker
+
+    I'm not familir with this code, so let's ask Copilot to explain it. Copilot will generate comments in the chat window.
+
 Open file **AirTraffic.c**
 
 Copilot Chat Window
@@ -23,7 +27,9 @@ Copilot Chat Window
 - type **/Explain**
 
 Speaker
+
     This C program is a simulation of an air traffic control system. The program uses three arrays to represent the state of the airport: gate_array for the gates, runway_array for the runways, and taxiway_array for the taxiways.
+
 
 Demo 2 - Convert C to Python
 ----------------------------
@@ -41,21 +47,22 @@ Speaker
 
 Speaker
 
-- Copy to clipboard. Cntl-N, to create a new file. Cntrl-V, to paste in code. Cntl-S, to save to **AirTraffic.py**
-
     You can create a new file in Visual Studio Code by clicking on the "New File" icon in the Explorer view or by using the shortcut Ctrl+N. Then, you can paste the above code into the new file. Next, save the file by using the shortcut Ctrl+S.
+
+- Copy to clipboard, Cntl-C. Cntl-N, to create a new file. Cntrl-V, to paste in code. Cntl-S, to save to **AirTraffic.py**
 
 Demo 3 - Generate Unit Tests
 ----------------------------
 Speaker
 
-    This looks great, thank you Copilot!  As a developer, I will Trust but verify, and run the code to make sure it works as expected.
+    This looks great, thank you Copilot!  As a developer, I will Trust but verify, and should run, then debug the code to make sure it works as expected.
 
-    Next, I want to create unit tests.  I can hightlight one object and easily create a single unit test.
+    Next, I want to create unit tests. I can hightlight one object and easily create a single unit test.
 
-    Using Copilot, you can type "write a unit test please" or use the shortcut key /tests.
+    Using Copilot, you can type, Please write a unit test for this, or use the shortcut key /tests.
 
-    Highlight def proceed_to_taxiways(self, airplane)
+- Open file **AirTraffic.py**
+- Highlight **def proceed_to_taxiways(self, airplane)**
 
 Copilot Chat Window
 
@@ -67,9 +74,9 @@ Speaker
 
     Another option is to generate all the unit tests for this file. First I'll highlight all the code and then use Copilots inline chat feature to write all my unit tests, let's go ahead and do that now.
 
-    Highlight all the lines, then use Copilots shortcut Ctrl+I.
-    
-    Copilot will prompt me right inline and now I can use the shortcut key /tests or simply type write unit tests everything
+    Copilot will prompt me right inline and now I can use the shortcut key /tests or simply type write unit tests everything,
+
+- Highlight all the lines, then use Copilots shortcut Ctrl+I.
 
 Copilot Inline Chat Window
 
@@ -97,7 +104,7 @@ Copilot Inline Chat Window
 
 Speaker
 
-    Scroll down to show comments above each class.
+- Scroll down to show comments above each class.
 
 Demo 4
 ----------------------------
