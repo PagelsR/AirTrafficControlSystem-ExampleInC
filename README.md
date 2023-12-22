@@ -18,7 +18,7 @@ Demo 1 - Explain application
 ----------------------------
 Speaker
 
-    I'm not familiar with this code, so let's ask Copilot to explain it. Copilot will generate comments in the chat window.
+    Hi, I'm Aria, a DevOps Architect at Xebia.  I'm going to walkthrough converting legacy see code to Python.  But first, I'm not familiar with this code, so I'll ask Copilot to explain it to me. Copilot will generate detailed comments in the chat window.
 
 Open file **AirTraffic.c**
 
@@ -128,7 +128,7 @@ Speaker
 
     Copilot will review the code and provide suggestions in the chat window.  If there are changes to code, I can review the output, copy it to clipboard, create a new file or simply paste in the code in place of original code.
 
-    Next, let's use Copilot to generate a good commit message before checking in my code.
+    If you replace the code, don't forget to generate a good commit message before checking in my code.
 
 - Click button **Generate commit message using Copilot**
 - Click button **Commit and Push**
