@@ -23,13 +23,13 @@ Copilot Chat Window
 - type **/Explain**
 
 Speaker
-    This C program is a simulation of an air traffic control system. It uses several libraries, including stdio.h for standard input/output operations, stdlib.h for general purpose functions, pthread.h for multithreading, unistd.h for POSIX operating system API, and semaphore.h for semaphore operations. The program uses three arrays to represent the state of the airport: gate_array for the gates, runway_array for the runways, and taxiway_array for the taxiways. Next, let's ask Copilot to convert this to Python.
+    This C program is a simulation of an air traffic control system. The program uses three arrays to represent the state of the airport: gate_array for the gates, runway_array for the runways, and taxiway_array for the taxiways.
 
 Demo 2 - Convert C to Python
 ----------------------------
 Speaker
 
-    Let's ask Copilot to convert this to Python.  I can highlight the entire file and ask Copilot to convert it to Python.  Copilot will generate the Python code in the chat window.  I can review this, copy it, create a new file, then simply paste in the code.
+    Let's ask Copilot to convert this to Python.  After highlighting all the code, I will ask Copilot to convert it to Python.  Copilot will generate the Python code in the chat window.  I can review this, copy it, create a new file, then simply paste in the code.
 
 Copilot Chat Window
 
@@ -41,7 +41,7 @@ Speaker
 
 Speaker
 
-    Copy to clipboard. Cntl-N, to create a new file. Cntrl-V, to paste in code. Cntl-S, to save to **AirTraffic.py**
+- Copy to clipboard. Cntl-N, to create a new file. Cntrl-V, to paste in code. Cntl-S, to save to **AirTraffic.py**
 
     You can create a new file in Visual Studio Code by clicking on the "New File" icon in the Explorer view or by using the shortcut Ctrl+N. Then, you can paste the above code into the new file. Next, save the file by using the shortcut Ctrl+S.
 
