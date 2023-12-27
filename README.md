@@ -18,7 +18,7 @@ Demo 1 - Explain application
 ----------------------------
 Speaker
 
-    Hi, my name is Aria, a DevOps Architect in the Microsoft Service Line USA at Xebia.  I'm going to walkthrough converting legacy see code to Python.  But first, I'm not familiar with this code, so I'll ask Copilot to explain it to me. Copilot will generate detailed comments in the chat window.
+    Hi, my name is Aria, I'm a DevOps Architect at Xebia USA in the Microsoft Service line.  I'm going to walkthrough converting legacy see code to Python.  But first, I'm not familiar with this code, so I'll ask Copilot to explain it to me. Copilot will generate detailed comments in the chat window.
 
 Open file **AirTraffic.c**
 
