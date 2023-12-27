@@ -18,7 +18,7 @@ Demo 1 - Explain application
 ----------------------------
 Speaker
 
-    Hi, I'm Aria, a DevOps Architect in the Microsoft Service Line USA at Xebia.  I'm going to walkthrough converting legacy see code to Python.  But first, I'm not familiar with this code, so I'll ask Copilot to explain it to me. Copilot will generate detailed comments in the chat window.
+    Hi, my name is Aria, a DevOps Architect in the Microsoft Service Line USA at Xebia.  I'm going to walkthrough converting legacy see code to Python.  But first, I'm not familiar with this code, so I'll ask Copilot to explain it to me. Copilot will generate detailed comments in the chat window.
 
 Open file **AirTraffic.c**
 
@@ -138,4 +138,5 @@ Speaker
 
 ### References
 #### This example is based on the work of Asad Zia located https://github.com/asadzia/Air-Traffic-Control
+#### The voice Aria is used from Azure AI Speech Service https://azure.microsoft.com/en-us/products/ai-services/ai-speech
 
